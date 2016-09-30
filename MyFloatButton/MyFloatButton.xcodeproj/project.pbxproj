@@ -15,6 +15,7 @@
 		27929AA41D9D5EC800AAFB89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27929AA21D9D5EC800AAFB89 /* LaunchScreen.storyboard */; };
 		27929AB01D9D5ED900AAFB89 /* FloatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929AAD1D9D5ED900AAFB89 /* FloatingViewController.m */; };
 		27929AB11D9D5ED900AAFB89 /* MyDragButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929AAF1D9D5ED900AAFB89 /* MyDragButton.m */; };
+		27F68EF61D9E418E0059CDD4 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27F68EF51D9E418E0059CDD4 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		27929AAD1D9D5ED900AAFB89 /* FloatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingViewController.m; sourceTree = "<group>"; };
 		27929AAE1D9D5ED900AAFB89 /* MyDragButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDragButton.h; sourceTree = "<group>"; };
 		27929AAF1D9D5ED900AAFB89 /* MyDragButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDragButton.m; sourceTree = "<group>"; };
+		27F68EF51D9E418E0059CDD4 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		27929A941D9D5EC800AAFB89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27F68EF51D9E418E0059CDD4 /* demo.gif */,
 				27929A951D9D5EC800AAFB89 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27929AA41D9D5EC800AAFB89 /* LaunchScreen.storyboard in Resources */,
+				27F68EF61D9E418E0059CDD4 /* demo.gif in Resources */,
 				27929AA11D9D5EC800AAFB89 /* Assets.xcassets in Resources */,
 				27929A9F1D9D5EC800AAFB89 /* Main.storyboard in Resources */,
 			);
@@ -336,6 +340,7 @@
 				27929AAA1D9D5EC900AAFB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
